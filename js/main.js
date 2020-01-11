@@ -4,13 +4,9 @@
 
 
 	// menu responsivo
+	const toggle = () => $('.nav-response').classList.toggle('abrir');
 
-	$('.bars').addEventListener('click', function() {
-		$('.nav-response').classList.toggle('abrir');
-	});
-
-	$('#close').addEventListener('click', function() {
-		$('.nav-response').addClass('close');
-	});
+	$('.bars').addEventListener('click', toggle);
+	$('#close').addEventListener('click', toggle);
 
 })();
