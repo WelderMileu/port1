@@ -42,9 +42,14 @@ a {
 .nav .nav-brend span {
   font-size: 1.5rem;
 }
+.nav .bars {
+  display: none;
+  transform: rotateY(190deg);
+  cursor: pointer;
+}
 .nav .bars div {
   width: 50px;
-  height: 3px;
+  height: 2px;
   background-color: #fff;
   margin-top: 4px;
 }
@@ -98,6 +103,18 @@ a {
   transform: translate(0%, 50%);
   left: 10px;
   top: 35px;
+}
+.nav .nav-response {
+  position: absolute;
+  margin-top: 300px;
+}
+.nav .nav-response .nav-navbar {
+  display: block;
+  flex-direction: row;
+}
+.nav .nav-response .nav-navbar .nav-item {
+  padding-top: 20px;
+  text-align: center;
 }
 
 .container {
@@ -201,10 +218,18 @@ a {
 
 @media (max-width: 900px) {
   .nav {
-    padding: 0px 150px 0px 10px;
+    padding: 10px 30px 0px 150px;
   }
   .nav .nav-navbar {
     display: none !important;
+  }
+  .nav .bars {
+    display: block;
+  }
+}
+@media (max-width: 430px) {
+  .nav {
+    padding: 5%;
   }
 }
 
