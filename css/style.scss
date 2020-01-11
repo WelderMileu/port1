@@ -223,7 +223,7 @@ a {
 					text-transform: uppercase;
 					border:none;
 					padding: 5px;
-					border-bottom: 2px solid var(--red-clear);
+					border-bottom: 1px solid var(--red-clear);
 					-webkit-appearance: none;
 			   		-moz-appearance: none;
 			   		appearance: none;
@@ -239,11 +239,8 @@ a {
 			grid-area: template2;
 			position: relative;
 			width: 100%;
-			display: none;
 			img {
-				transform: translate(50%, 50%);
 				top:-100px;
-				left:40%;
 				z-index: 1000;
 			}
 			p {
@@ -359,6 +356,16 @@ a {
 
 				p {
 					width: 100%;
+				}
+			}
+
+			.midia {
+				p {
+					font-size: 5rem;
+				}
+
+				img {
+					width: 200px;
 				}
 			}
 		}

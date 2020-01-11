@@ -205,7 +205,7 @@ a {
   text-transform: uppercase;
   border: none;
   padding: 5px;
-  border-bottom: 2px solid var(--red-clear);
+  border-bottom: 1px solid var(--red-clear);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -218,12 +218,9 @@ a {
   grid-area: template2;
   position: relative;
   width: 100%;
-  display: none;
 }
 .container .content .midia img {
-  transform: translate(50%, 50%);
   top: -100px;
-  left: 40%;
   z-index: 1000;
 }
 .container .content .midia p {
@@ -311,6 +308,12 @@ a {
   }
   .container .content .info p {
     width: 100%;
+  }
+  .container .content .midia p {
+    font-size: 5rem;
+  }
+  .container .content .midia img {
+    width: 200px;
   }
 }
 
