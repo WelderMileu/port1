@@ -106,15 +106,25 @@ a {
 }
 .nav .nav-response {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 400px;
+  left: 10%;
+  background-color: black;
+  z-index: 2;
+  width: 90%;
 }
 .nav .nav-response .nav-navbar {
-  display: block;
-  flex-direction: row;
+  display: none;
+  padding: 10px;
 }
 .nav .nav-response .nav-navbar .nav-item {
   padding-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .nav-response .nav-navbar .nav-item:nth-child(4) a {
+  width: 50%;
 }
 
 .container {
@@ -226,10 +236,16 @@ a {
   .nav .bars {
     display: block;
   }
+  .nav .nav-response .nav-navbar {
+    display: block !important;
+  }
 }
 @media (max-width: 430px) {
   .nav {
     padding: 5%;
+  }
+  .nav .nav-response .nav-navbar .nav-item:nth-child(4) a {
+    width: 100%;
   }
 }
 
