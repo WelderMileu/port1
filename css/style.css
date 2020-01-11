@@ -220,6 +220,7 @@ a {
   width: 100%;
 }
 .container .content .midia img {
+  transform: translate(50%, 50%);
   top: -100px;
   z-index: 1000;
 }
@@ -310,9 +311,10 @@ a {
     width: 100%;
   }
   .container .content .midia p {
-    font-size: 5rem;
+    font-size: 7rem;
   }
   .container .content .midia img {
+    transform: translate(0%, 50%);
     width: 200px;
   }
 }

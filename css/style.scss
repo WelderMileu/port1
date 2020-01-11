@@ -240,6 +240,7 @@ a {
 			position: relative;
 			width: 100%;
 			img {
+				transform: translate(50%, 50%);
 				top:-100px;
 				z-index: 1000;
 			}
@@ -361,10 +362,11 @@ a {
 
 			.midia {
 				p {
-					font-size: 5rem;
+					font-size: 7rem;
 				}
 
 				img {
+					transform: translate(0%, 50%);
 					width: 200px;
 				}
 			}
