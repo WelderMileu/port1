@@ -290,6 +290,13 @@ a {
   .container .content {
     grid-template-areas: "template1 template1" "template2 template2";
   }
+  .container .content .midia p {
+    font-size: 7rem;
+  }
+  .container .content .midia img {
+    transform: translate(0%, 50%);
+    width: 200px;
+  }
   .container .social {
     left: -35%;
   }
@@ -309,13 +316,6 @@ a {
   }
   .container .content .info p {
     width: 100%;
-  }
-  .container .content .midia p {
-    font-size: 7rem;
-  }
-  .container .content .midia img {
-    transform: translate(0%, 50%);
-    width: 200px;
   }
 }
 

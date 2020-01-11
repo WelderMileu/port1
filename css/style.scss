@@ -324,6 +324,16 @@ a {
 		.content {
 			grid-template-areas: "template1 template1" 
 								 "template2 template2";
+			.midia {
+				p {
+					font-size: 7rem;
+				}
+				
+				img {
+					transform: translate(0%, 50%);
+					width: 200px;
+				}
+			}
 		}
 		.social {
 			left:-35%;
@@ -357,17 +367,6 @@ a {
 
 				p {
 					width: 100%;
-				}
-			}
-
-			.midia {
-				p {
-					font-size: 7rem;
-				}
-
-				img {
-					transform: translate(0%, 50%);
-					width: 200px;
 				}
 			}
 		}
